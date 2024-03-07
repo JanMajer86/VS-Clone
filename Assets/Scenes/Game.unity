@@ -169,8 +169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   terrainChunks:
   - {fileID: 5767016849872846415, guid: f78dbeae99861494d8a952c512a3251d, type: 3}
-  - {fileID: 5767016849872846415, guid: 164a6da2b5c786447bc1d90e6b45f99d, type: 3}
-  - {fileID: 5767016849872846415, guid: 327aa713453548e4bb96647026e3b814, type: 3}
   player: {fileID: 1135106950}
   checkerRadius: 0.2
   terrainMask:
@@ -320,7 +318,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -504,6 +502,10 @@ PrefabInstance:
     - target: {fileID: 5767016849872846415, guid: f78dbeae99861494d8a952c512a3251d, type: 3}
       propertyPath: m_Name
       value: Terrain Chunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327041258419816512, guid: f78dbeae99861494d8a952c512a3251d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9113388132405083655, guid: f78dbeae99861494d8a952c512a3251d, type: 3}
       propertyPath: m_LocalPosition.x
